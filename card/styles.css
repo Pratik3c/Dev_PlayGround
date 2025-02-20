@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.card:hover{
+  background-color: white;
+  border-color: white;
+}
+
+.card{
+  display: inline-block; /* so that card will not take entire space and rating will not so to rightmost position of screen */
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 20px solid aliceblue; /* need to add this otherwise if we directly add on hover then iamge starts moving...*/
+  border-radius: 20px;
+}
+
+.box{
+  display: inline-block;
+}
+
+.image{
+  position: relative;
+}
+
+.img{
+  height: 250px;
+  width: auto;
+  border-radius: 20px;
+}
+
+.off{
+  background-color: rgba(0, 102, 255, 0.6);
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 30px;
+  padding: 4px 4px 4px 15px;
+}
+
+.restaurant, .food, .location{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.restaurant_name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rating{
+  background-color: rgb(22, 146, 22);
+  color: white;
+  height: 20px;
+  padding: 4px;
+  border-radius: 9px;
+  position: absolute;
+  right: 5px;
+}
+
+.price{
+  position: absolute;
+  right: 5px;
+}
+
+.distance{
+  position: absolute;
+  right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.food{
+  color: rgb(75, 75, 75);
+}
+
+.place{
+  font-size: 14px;
+  color: rgb(137, 137, 137);
+}
+
+.percent{
+  height: 20px;
+  width: auto;
+}
